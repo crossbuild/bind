@@ -39,7 +39,7 @@ LIBS =		${DNSLIBS} ${ISCLIBS} @LIBS@
 
 TLIB =		../../../lib/tests/libt_api.@A@
 
-TARGETS =	dst_test@EXEEXT@ t_dst@EXEEXT@ gsstest@EXEEXT@
+TARGETS =	dst_test@EXEEXT@ gsstest@EXEEXT@
 
 SRCS =		dst_test.c t_dst.c gsstest.c
 
